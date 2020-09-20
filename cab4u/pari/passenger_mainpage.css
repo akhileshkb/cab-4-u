@@ -1,0 +1,73 @@
+#booking_area{
+	float:left;
+	 border:2.5px solid orange;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+	background-color: "grey";
+	min-width: 17%;
+	max-width:30%;
+	padding: 2%;
+	margin-left: 5%;
+	font-size : 1.5vw;
+}
+
+#submit{
+	width: 30%;
+	font-size: 1vw;
+}
+
+#submit:hover{
+	font-weight: bold;
+}
+
+#image{
+	float:right;
+	max-width:50%;
+}
+ 
+#to{
+	width:70%;
+	padding-top:1%; 
+}
+
+#from{
+	width:70%;
+	padding-top: 1%;
+}
+
+.btn-group button{
+	width:20%;
+	position: relative;
+	padding-top:1%;
+	padding-bottom: 1%;
+	background-color:#fac002;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	font-size: 1.5vw;
+	float:left;
+	margin: 0px;
+	transition-duration: 0.5s;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child){
+	border-right: none;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.btn-group button:hover{
+	background-color:#faa302;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+::placeholder{
+	font-size: 1vw;
+}
